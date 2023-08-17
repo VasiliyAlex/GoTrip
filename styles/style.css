@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav {
+  background: #3e8989;
+  padding: 37px 0;
+}
+
+.header__nav-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header__nav-link {
+  color: #fff;
+  font-family: 'RM';
+  transition: 0.2s;
+  padding-bottom: 5px;
+}
+
+.header__nav-link:hover {
+  border-bottom: 3px solid #fff;
+}
+
+.header__form {
+  display: flex;
+
+}
+
+.header__form-input {
+  border-radius: 20px 0px 0px 20px;
+  background: #fff;
+  padding: 8px 20px;
+  font-family: 'RR';
+  width: 216px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.header__form-btn {
+  padding: 9px 14px;
+  border-radius: 0px 20px 20px 0px;
+  background: #295e5e;
+  font-family: 'RR';
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.header__content {
+  height: 800px;
+  background: url(../images/pic.jpg.jpg) no-repeat center / cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__content-logo {
+  color: #fff;
+  font-family: "RS";
+  font-size: 80px;
+}
+
+.header__content-title {
+  color: #fff;
+  font-family: "RM";
+  font-size: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.header__content-btn {
+  border-radius: 30px;
+  background: #b4436c;
+  padding: 14px 77px;
+  margin-top: 50px;
+  color: #ffffff;
+  transition: all 300ms;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: 'IS';
+}
+
+.header__content-btn:hover {
+  background: #fff;
+  color: #B4436C;
+}
+
+.about {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__title {
+  color: #3E8989;
+  font-size: 40px;
+  margin: 0 auto;
+  font-family: 'IS';
+}
+
+.about__box {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.about__box-img {
+  max-width: 545px;
+  width: 100%;
+}
+
+.about__box-img>img {
+  width: 100%;
+}
+
+
+.about__box-text {
+  max-width: 545px;
+  width: 100%;
+  color: #000;
+  font-family: 'RR';
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.catalog{
+  margin-top: 100px;
+}
+
+.catalog__box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.catalog__title {
+  color: #3E8989;
+  font-family: 'IS';
+  font-size: 40px;
+  text-align: center;
+}
+
+
+.catalog__box-card {
+  margin-top: 53px;
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog__box-card-img {
+  width: 265px;
+  height: 300px;
+  background: #EFEFEF;
+}
+
+.card__img {
+  width: 100%;
+  height: 100%;
+}
+
+.catalog__box-card-link {
+  margin-top: 30px;
+  color: #000;
+  font-size: 24px;
+  transition: all 300ms;
+  font-family: 'IS';
+  text-align: center;
+}
+
+.catalog__box-card-link:hover {
+  color: #B4436C;
+}
+
+
+.contacts{
+  margin-top: 100px;
+}
+
+.contacts__title {
+  color: #3E8989;
+  font-family: 'IS';
+  font-size: 40px;
+}
+
+.contacts__box {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__box-text {
+  max-width: 555px;
+  width: 100%;
+  color: #000;
+  font-family: 'RR';
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.contacts__box-contacts {
+  max-width: 166px;
+  width: 100%;
+}
+
+.contacts__box-contacts>a {
+  display: block;
+  margin-bottom: 20px;
+  color: #000;
+  font-family: 'RR';
+  font-size: 20px;
+}
+
+.footer {
+  background: #3E8989;
+  margin-top: 104px;
+}
+
+.footer__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  gap: 60px;
+}
+
+.footer__box-list {
+  display: flex;
+  gap: 30px;
+}
+
+.footer__box-link {
+  color: #FFF;
+  font-family: 'RM';
+  font-size: 16px;
+}
+
+.footer__box-list2 {
+  display: flex;
+  gap: 6px;
+}
+
+.footer__box-link2 {
+  color: #FFF;
+  font-family: 'RR';
+  font-size: 14px;
+}
